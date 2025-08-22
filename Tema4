@@ -1,0 +1,56 @@
+"""
+Arquivo: funcoes_parametros.py
+Tema: Funções com parâmetros padrão e argumentos variáveis em Python
+Autor: [Seu Nome]
+
+Este arquivo apresenta exemplos de como utilizar:
+1. Parâmetros padrão (param=valor).
+2. Argumentos variáveis (*args).
+3. Argumentos nomeados variáveis (**kwargs).
+
+Esses recursos tornam as funções em Python mais flexíveis e reutilizáveis,
+permitindo definir valores padrão, lidar com quantidades variáveis de dados
+e aceitar parâmetros opcionais nomeados.
+"""
+'''
+Exemplo 1: Parâmetros padrão
+'''
+
+def saudacao(nome="Usuário", mensagem="Bem-vindo!"):
+    """
+    Exibe uma saudação personalizada.
+    Caso nenhum parâmetro seja informado, serão usados os valores padrão.
+    """
+    print(f"Olá {nome}, {mensagem}")
+
+
+# Testando a função com e sem parâmetros
+saudacao()  # Usa os valores padrão
+saudacao("Samuel")  # Substitui apenas o nome
+saudacao("Maria", "boa aula!")  # Substitui ambos os parâmetros
+
+
+'''
+Exemplo 2: Uso de *args
+'''
+
+def listar_sobremesas(*args):
+  print(args)
+
+listar_sobremesas('bolo', 'sorvete', 'torta')           
+
+
+'''
+Exemplo 3: Uso de **kwargs
+'''
+
+def sobremesas(**kwargs):
+  print(kwargs)
+
+sobremesas(
+  brigadeiro = "colher",
+  bolo="fofinho", 
+  sorvete="gelado", 
+  pudim="cremoso", 
+  torta="crocante"
+)
