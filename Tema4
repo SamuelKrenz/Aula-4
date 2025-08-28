@@ -1,5 +1,3 @@
-
-Este arquivo apresenta exemplos de como utilizar:
 1. Parâmetros padrão (param=valor).
 2. Argumentos variáveis (*args).
 3. Argumentos nomeados variáveis (**kwargs).
@@ -51,3 +49,4 @@ sobremesas(
   torta="crocante"
 
 )
+
