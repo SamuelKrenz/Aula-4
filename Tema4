@@ -1,7 +1,3 @@
-"""
-Arquivo: funcoes_parametros.py
-Tema: Funções com parâmetros padrão e argumentos variáveis em Python
-Autor: [Seu Nome]
 
 Este arquivo apresenta exemplos de como utilizar:
 1. Parâmetros padrão (param=valor).
@@ -53,4 +49,5 @@ sobremesas(
   sorvete="gelado", 
   pudim="cremoso", 
   torta="crocante"
+
 )
